@@ -62,13 +62,13 @@ function vuelos(){ // Pedimos al usuario asiganr el pais a visitar
             break;
         default: 
             alert("No hay vuelos disponibles para esa ciudad hasta el momento ❌");
-
     } 
+    
     console.log(ciudadPaisDestino)//Consologeamos Nuestro resultado
 }
 
 function Coche(){// Pedimos al usuario asiganr el numero de dias a rentar el Auto. 
-    diasRentarAuto = prompt("Ingresa los dias que al1uilarás un coche. min 5 a 8 días max 🚗");
+    diasRentarAuto = prompt("Ingresa los dias que alquilarás un coche. min 5 a 8 días max 🚗");
     switch(diasRentarAuto){
         case "5":
             alert("El coste de alquiler de Auto 5 días es de 400$ + Iva Disponible Mercedez Benz 2023");
